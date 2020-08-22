@@ -1,0 +1,129 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{mcdowellcv}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{John (Lam) Nguyen}
+\address{425 13th Ave SE, Apt 1301 \linebreak Minneapolis MN 55414}
+\contacts{(253) 285-0950 \linebreak nguy4130@umn.edu}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+	% Print the content
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{Minneapolis, MN}{University of Minnesota}{September 2019 -- May 2021}
+		    College of Science and Engineering, Twin Cities Campus
+			\begin{itemize}
+				\item Pursuing B.S.E. in Computer Science Engineering. Current in-major GPA: 3.9.
+				\item Undergraduate Coursework: Operating Systems; Databases; Algorithms; Functional Programming; Comp. Architecture; Artificial Intelligence.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Auburn, WA}{Green River College}{September 2017 -- June 2019} 
+		    \begin{itemize}
+		        \item A.S. in Computer Science. Cumulative GPA: 3.86.
+		        \item Undergraduate Coursework: Programming Language; Data Structures; Calculus IV; Engineering Physics III.
+		    \end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Software Engineer, Intern}{Credit Karma}{May 2020 -- August 2020}
+			\begin{itemize}
+			    \item Coordinating with both front-end and back-end engineers to handle internal ticket regarding ETL jobs. 
+			    \item Assisting Senior Data Engineers in building a new data center.
+				\item Working on a project that automates the internal data processing pipeline, reducing 80\% of manual steps.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Service Desk Specialist}{University of Minnesota}{March 2020 -- May 2020}	
+		    Office of Information Technology
+			\begin{itemize}
+				\item Assisted all university members with any technology-related issues and connected them to the right support team during the COVID-19 pandemic.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Zone Technology Specialist}{University of Minnesota}{October 2019 - March 2020}
+		    Office of Information Technology
+			\begin{itemize}
+				\item Supported departments and students with their specific problems with their university-owned devices before the COVID-19 pandemic.
+				\item Managed all university-owned electronic devices.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{Mathematics Tutor}{Green River College}{September 2018 -- June 2019}
+			Math Learning Center		
+			\begin{itemize}
+				\item Helped students having difficulties in their math classes.
+				\item Tutoring levels: Pre-calculus, Calculus, Discrete Mathematics, Linear Algebra, and Differential Equation.
+			\end{itemize}
+		\end{cvsubsection}
+		
+		\begin{cvsubsection}{IT Helpdesk Employee}{Green River College}{December 2017 -- June 2019}
+		    IT Department
+		    \begin{itemize}
+		        \item Worked at the computer labs to support students with issues on their electronic devices.
+		        \item Coordinated with the appropriate team during escalation.
+		        \item Assisted in maintaining the computers on-campus during breaks.
+		    \end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Technical Experience}
+		\begin{cvsubsection}{Projects}{}{}
+			\begin{itemize}
+				\item \textbf{Pathfinding Visualizer} (2020). Visualization of searching algorithms such as DFS, BFS, Dijkstra, A*.  Java, Python
+				\item \textbf{Client - Server Model} (2020). Synchronous, multithreading and multiprocessing communication using IPC. C
+				\item \textbf{Address Translator} (2020). Implementation of Translation Lookaside Buffer (TLB) using First-In-First-Out (FIFO), Least-Recently-Used (LRU), and Least-Frequently-Used (LFU) mechanism. C
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Additional Experience and Awards}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+			    \item \textbf{CSE Dean's List (2019-2020):} Finished the semester with a GPA more than 3.67.
+				\item \textbf{International Program Award (2019):} Graduated with a GPA more than 3.8 as an international student.
+				\item \textbf{Math Department Award (2019):} Completed most math courses with a GPA of 4.0.
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}	
+			\begin{itemize}
+				\item Programming Languages: Java; C; Python; Scala; Ocaml; Bash
+				\item Editor and IDE: Visual Studio Code; Atom; Sublime Text; IntelliJ; Pycharm; Eclipse
+				\item Framework: Circe; Java Swing; TensorFlow 
+				\item Deployment tools: Ansible; Jenkins; CircleCI; GitHub; Google Cloud Platform (GCP) 
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+	
+\end{document}

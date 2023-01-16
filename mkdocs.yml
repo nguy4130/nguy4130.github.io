@@ -1,0 +1,10 @@
+site_name: John Nguyen
+site_description: Personal Website by John Nguyen
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+repo_url: "https://github.com/nguy4130/nguy4130.github.io"
+repo_name: "GitHub"

@@ -1,5 +1,6 @@
 site_name: John Nguyen
 site_description: Personal Website by John Nguyen
+site_url: https://nguy4130.github.io/
 theme:
   name: material
   features:

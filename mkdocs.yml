@@ -7,5 +7,19 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
 repo_url: "https://github.com/nguy4130/nguy4130.github.io"
 repo_name: "GitHub"
+nav:

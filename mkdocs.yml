@@ -7,6 +7,8 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
+    - navigation.expand
+    - navigation.path
   palette: 
 
     # Palette toggle for light mode
@@ -22,4 +24,11 @@ theme:
         name: Switch to light mode
 repo_url: "https://github.com/nguy4130/nguy4130.github.io"
 repo_name: "GitHub"
-nav:
+extra: 
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/nguy4130
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/lamnguyen1105/
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<lamnguyen110500@gmail.com>
